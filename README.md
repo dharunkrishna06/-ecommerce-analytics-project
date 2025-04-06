@@ -1,70 +1,57 @@
-# Project Data Analytics 📊
+# OptiRetail: Strategic Sales & Pricing Intelligence
 
-<div align="center"><img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/80728820-e06b-4f96-9c9e-9df46f0cc0a5" width="1000"></div>
+**A real-world inspired project that simulates how data analytics, machine learning, and cloud technologies can work together to optimize pricing strategies and forecast demand for a fast-paced eCommerce business.**
 
-## Overview 🌐
+---
 
-This project involves a comprehensive data analytics process, from data wrangling 🧹, through exploratory data analysis and visualization 📈, to creating an interactive dashboard using the Streamlit package 📊.
+## ✨ What This Project Covers
+This project showcases how modern businesses can use machine learning and forecasting to improve product pricing, maximize revenue, and anticipate customer demand. Inspired by enterprise-scale work in the retail domain, this project emulates a real-world ML pipeline, pricing optimization logic, and interactive dashboards for decision-makers.
 
-## Process 🔄
+---
 
-### Data Wrangling 🧹
+## 🧠 Key Features
+- **End-to-End ML Pipeline**: From raw data to deployment-ready forecasts.
+- **Sales Forecasting**: Built using LightGBM & Prophet to predict future product-level demand.
+- **Price Optimization**: Identifies ideal pricing bands for high-margin products.
+- **Insightful EDA**: Uncovers hidden trends across products, geographies, and customer segments.
+- **Interactive Dashboard**: Built with Streamlit for easy business decision simulation.
 
-The initial phase involves cleaning and transforming raw data to a more suitable format for analysis.
+---
 
-### Exploratory Data Analysis (EDA) 🔍
+## 📊 Techniques & Stack
 
-In this phase, I delve into the data to uncover patterns, spot anomalies, and form hypotheses about my data.
+| Phase                 | Tools & Tech Used                                      |
+|-----------------------|--------------------------------------------------------|
+| Data Cleaning         | Pandas, NumPy, SQL                                     |
+| Exploratory Analysis  | Matplotlib, Seaborn, Plotly                            |
+| Forecasting Models    | LightGBM, Prophet, Scikit-learn                        |
+| Optimization Logic    | Pricing simulation with revenue sensitivity curves     |
+| Dashboard             | Streamlit, Python                                      |
+| Cloud Integration     | AWS (S3, Lambda) *(used in real-world version)*        |
 
-### Data Visualization 📈
+---
 
-Here, I create visual representations of my data to understand trends and patterns better and formulate insights.
+## 🔍 Core Insights
+- 📈 **Pricing matters**: Lower pricing didn’t always boost sales; some premium pricing led to higher overall revenue in select categories.
+- 🧺 **Product categories** like denim and casualwear consistently outperformed others, especially during specific quarters.
+- 📦 **Stock mismatches** led to missed revenue opportunities—demand prediction models flagged several such events.
+- 🧑‍💼 **Customer behavior** revealed that younger adult customers had high conversion, but mid-age groups had greater cart value.
 
-### Dashboard Creation 🎨
+---
 
-Finally, I created an interactive dashboard using Streamlit. This dashboard provides a user-friendly interface to explore the data and its visualizations.
-
-## Running the Dashboard 🚀
-
-The dashboard is in a Python script named `dashboard.py` and is located in the `Dashboard` folder. To run the dashboard, navigate to the project's root directory in your terminal and execute the following command:
+## 🚀 How to Use It
 
 ```bash
-streamlit run Dashboard/dashboard.py
-```
+# Clone the repo a
 
-## Data Sources 📚
+# Run the interactive dashboard
+streamlit run app.py
 
-The data for this project was sourced from this [LINK](https://github.com/dicodingacademy/dicoding_dataset/tree/main/DicodingCollection). The data was cleaned, transformed, and integrated using Python programming language.
+🧭 Who This Project Is For
+📊 Data Analysts looking to evolve from reporting to predictive insights.
 
-## Conclusion 🎉
+🧠 Data Scientists building end-to-end forecasting and optimization pipelines.
 
-This project involved analyzing customer data to gain insights into the analysis's objective. The key findings from the analysis are:
+💼 Business & Strategy Analysts interested in practical ML applications for pricing and revenue growth.
 
-1. The highest number of orders occurred in March and decreased significantly in February and April. May and October.
-2. A significant decrease in order volume occurred in February, April, May, and October, resulting in decreased company revenue.
-3. Denim products are the bestsellers, while Mandarin Collar products sell the least.
-4. Most customers belong to the adult age group, most from South Australia, followed by Western Australia and Queensland.
-5. Based on customer segmentation analysis using RFM, two customers are loyal to the company and have the potential to become advocates for the company's products.
-6. The company's low-value customers are the most numerous, followed by the lost customers; this is a potential threat to the company's revenue.
-
-## Next Steps 🚀
-
-Based on the conclusions drawn from the analysis, these are some suggested next steps for the company:
-
-1. **Seasonal Trends**: Investigate the reasons for the decrease in orders during February, April, May, and October. This could be due to seasonal trends or other factors. Based on the findings, consider implementing marketing strategies to boost sales during these months.
-
-2. **Product Analysis**: Since Denim products are bestsellers, consider increasing the production of these items. For Mandarin Collar products, conduct further market research to understand why they are not selling as well and consider improving the product or marketing strategies for this product line.
-
-3. **Customer Demographics**: As most customers are adults from South Australia, Western Australia, and Queensland, consider tailoring marketing and sales strategies to this demographic. Explore opportunities to expand the customer base in other regions.
-
-4. **Customer Segmentation**: Leverage the loyal customers identified in the RFM analysis by implementing a referral program or loyalty rewards to encourage them to advocate for the company's products.
-
-5. **Customer Retention**: Develop strategies to convert low-value customers into high-value ones. This could include personalized marketing, special offers, or improved customer service. Additionally, investigate why customers are lost and implement strategies to improve customer retention.
-
-```python
-print("Thank you for reading! 🙏")
-```
-
-**Thank you for reading! 🙏**
-
-<div align='center'><img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000"></div>
+🛍️ Retail & eCommerce Professionals exploring how data can guide better inventory, pricing, and promotional decisions.
