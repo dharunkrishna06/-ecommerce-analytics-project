@@ -1,4 +1,4 @@
-# OptiRetail: Strategic Sales & Pricing Intelligence
+# E-Commerce Analytics – Customer Segmentation & Conversion Insights 
 
 **A real-world inspired project that simulates how data analytics, machine learning, and cloud technologies can work together to optimize pricing strategies and forecast demand for a fast-paced eCommerce business.**
 
